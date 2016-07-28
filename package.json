@@ -1,6 +1,6 @@
 {
   "name": "uint-to-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts unsigned integers into english words",
   "main": "lib/index.js",
   "scripts": {
