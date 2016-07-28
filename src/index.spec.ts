@@ -66,6 +66,34 @@ describe('basic number conversions', () => {
 
 });
 
+describe('complex conversions', () => {
+
+  it.skip(`returns 'one thousand' when number is 1000`, () => {
+    expect(uintToWords(1000)).to.equal(`one thousand`);
+  });
+
+  it.skip(`returns 'two thousand and one' when number is 2001`, () => {
+    expect(uintToWords(2001)).to.equal(`two thousand and one`);
+  });
+
+  it.skip(`returns 'three thousand one hundred and five' when number is 3105`, () => {
+    expect(uintToWords(3105)).to.equal(`three thousand one hundred and five`);
+  });
+
+  it.skip(`returns 'one million' when number is 1000000`, () => {
+    expect(uintToWords(1000000)).to.equal(`one million`);
+  });
+
+  it.skip(`returns 'one million and one' when number is 1000001`, () => {
+    expect(uintToWords(1000001)).to.equal(`one million and one`);
+  });
+
+  it.skip(`returns 'nine hundred and ninety nine million nine hundred and ninety nine thousand nine hundred and ninety nine' when number is 999999999`, () => {
+    expect(uintToWords(999999999)).to.equal(`nine hundred and ninety nine million nine hundred and ninety nine thousand nine hundred and ninety nine`);
+  });
+
+});
+
 // for (let i=1234567; i < 1234667; i ++){
 //   console.log(i, uintToWords(i));
 // }
