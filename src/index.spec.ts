@@ -40,20 +40,28 @@ describe('basic library functionality', () => {
 
 describe('basic number conversions', () => {
 
-  it('returns zero when number is 0', () => {
-    expect(uintToWords(0)).to.equal('zero');
+  it(`returns 'zero' when number is 0`, () => {
+    expect(uintToWords(0)).to.equal(`zero`);
   });
 
-  it('returns ten when number is 10', () => {
-    expect(uintToWords(10)).to.equal('ten');
+  it(`returns 'ten' when number is 10`, () => {
+    expect(uintToWords(10)).to.equal(`ten`);
   });
 
-  it('returns eighteen when number is 18', () => {
-    expect(uintToWords(18)).to.equal('eighteen');
+  it(`returns 'eighteen' when number is 18`, () => {
+    expect(uintToWords(18)).to.equal(`eighteen`);
   });
 
-  it('returns twenty three when number is 23', () => {
-    expect(uintToWords(23)).to.equal('twenty three');
+  it(`returns 'twenty three' when number is 23`, () => {
+    expect(uintToWords(23)).to.equal(`twenty three`);
+  });
+  
+  it(`returns 'one hundred and one' when number is 101`, () => {
+    expect(uintToWords(101)).to.equal(`one hundred and one`);
+  });
+
+  it(`returns 'two hundred' when number is 200`, () => {
+    expect(uintToWords(200)).to.equal(`two hundred`);
   });
 
 });
