@@ -8,6 +8,10 @@
     "build": "tsc"
   },
   "author": "Zak Henry <zak.henry@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakhenry/uint-to-words.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^3.4.29",
