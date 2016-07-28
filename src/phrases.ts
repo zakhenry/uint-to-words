@@ -24,6 +24,8 @@ export const BASE_NUMBERS: string[] = [
 ];
 
 export const TENS: string[] = [
+  undefined,
+  undefined,
   'twenty',
   'thirty',
   'forty',

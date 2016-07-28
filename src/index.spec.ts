@@ -36,3 +36,28 @@ describe('basic library functionality', () => {
   });
 
 });
+
+
+describe('basic number conversions', () => {
+
+  it('returns zero when number is 0', () => {
+    expect(uintToWords(0)).to.equal('zero');
+  });
+
+  it('returns ten when number is 10', () => {
+    expect(uintToWords(10)).to.equal('ten');
+  });
+
+  it('returns eighteen when number is 18', () => {
+    expect(uintToWords(18)).to.equal('eighteen');
+  });
+
+  it('returns twenty three when number is 23', () => {
+    expect(uintToWords(23)).to.equal('twenty three');
+  });
+
+});
+
+// for (let i=1234567; i < 1234667; i ++){
+//   console.log(i, uintToWords(i));
+// }
