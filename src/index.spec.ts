@@ -3,7 +3,7 @@ import { uintToWords } from './index';
 
 const expect = chai.expect;
 
-describe('library functionality', () => {
+describe('basic library functionality', () => {
 
   it('converts a number into a string', () => {
 
