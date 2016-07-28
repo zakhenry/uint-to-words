@@ -1,3 +1,9 @@
+/**
+ * This module holds the static language mapping definitions.
+ * With a little refactoring, i18n capabilities could easily be added (if they follow the English
+ * language conventions).
+ */
+
 export const SEPARATOR: string = 'and';
 
 export const BASE_NUMBERS: string[] = [
